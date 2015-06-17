@@ -178,7 +178,7 @@
 			var $this_tr = $("<tr />");
 			var $this_label = $("<td />").addClass('cell-label day-label')
 				.addClass(settings.days[day] + '-label')
-				.html(settings.i18nfunc(settings.i18nfunc(settings.days[day])))
+				.html(settings.i18nfunc(settings.days[day]))
 				.data('day', day)
 				.click(function(e) {
 					e.preventDefault();
